@@ -1,9 +1,12 @@
 import React from "react";
+import "./style.scss";
+
 
 class Header extends React.Component{
 
     render(){
-        return
+        return <div className="header-img" style={{backgroundImage:`url('${Simple}')`}}>
+        </div>
     }
 }
 
