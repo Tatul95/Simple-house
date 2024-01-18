@@ -1,6 +1,21 @@
 .header-img{
     background-size: cover;
     max-width: 100%;
+    min-height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: flex;
+    align-items: end;
+}
+
+.header-box{
+    display: flex;
+    justify-content: space-between;
+
+
+
+    .header-left{
+        display: flex;
+        align-items: center;
+    }
 }
