@@ -1,0 +1,55 @@
+.history{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 50px;
+
+    .img-box{
+        display: flex;
+    };
+
+    .info-box{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h3{
+                color: #1A6692;
+                font-weight: 400;
+                font-size: 20px;
+            };
+
+            p{
+                color: #626364;
+                font-weight: 400;
+                font-size: 18px;
+            }
+        };
+
+        .read-more{
+            display: flex;
+            justify-content: end;
+
+            button{
+                width: 200px;
+                height: 50px;
+                background-color: white;
+                border: 1px solid #ccc;
+                color: #626364;
+                font-size: 18px;
+            };
+
+             button:hover{
+                background-color:#626364 ;
+                color: #ccc;
+             }
+
+        
+        }
+    }
+}

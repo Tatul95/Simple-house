@@ -1,0 +1,21 @@
+.description-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+    h2{
+        font-weight: 400;
+        font-size: 32px;
+    };
+
+    p{
+        color: #626364;
+        font-size: 18px;
+        max-width: 600px;
+        width: 100%;
+    }
+}

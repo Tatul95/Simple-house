@@ -1,0 +1,31 @@
+.staff-box{
+    width: calc(50% - 20px);
+
+    .staff{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.staff-info-title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h3{
+        color: #09C;
+        font-weight: 300;
+        font-size: 28px;
+    };
+
+    span{
+        color: #C39;
+        font-weight: 300;
+        font-size: 20px;
+    };
+
+    p{
+       color:  #626364;
+       
+    }
+}

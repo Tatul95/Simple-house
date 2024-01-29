@@ -1,5 +1,5 @@
 export const RoutersList = {
-    HOME: '/home',
+    HOME: '/',
     ABOUT: '/about',
     CONTACT: '/contact',
 }
